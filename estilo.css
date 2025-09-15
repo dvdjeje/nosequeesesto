@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Eater&display=swap" rel="stylesheet');
+
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+
+a, a:active, a:visited, a:hover {
+  color: rgb(193, 120, 199);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#contenedorGeneral {
+  margin: auto 1em;
+  text-align: center;
+}
+
+#tituloPagina {
+  margin-top: 1em;
+  margin-bottom: 0;
+  margin-bottom: 0.5em;
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-family: "Eater", serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+#tituloPagina:hover {
+  color: purple;
+  cursor: pointer;
+}
+
+#foto {
+ height: 300px;
+  border: #a200ff solid 5px;
+  margin-top: 15px;
+}
+
+.tituloPrediccion {
+  font-size: 2em;
+}
+
+.prediccion {
+  font-size: 1.5em;
+}
+
+.prediccion::first-letter {
+  text-transform: uppercase;
+}
+
+#boton {
+  font-size: 0.9em;
+  background-color: #3d00fdb5;
+  color: white;
+  margin-bottom: 2em;
+  cursor: pointer;
+}

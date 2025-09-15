@@ -1,20 +1,38 @@
-<DOCTYPE html>
-  <html>
-<head>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/sitio.webmanifest" />
 
-<title> esto es una nueva página </title>
-<link rel="styleheet" href="estilo.css"/>
-  <script src="script.js"></script>
-</head>
- <body>
-  
-    <h1>HOLAHOLAHOLA</h1>
-  <p class="parrafo">Desarrollada en Taller Multimedia Transmedia</p>
-  <p class="parrafo"> ESTOY MUY PERDIDO EN ESTA CLASE</p>
-  <p class="parrafo"> id="parrafo2" y uno más</p>
+    <title> ¿Qué criatura de terror eres? </title>
+    <!-- <meta name="description" content="Descripción del sitio...." /> -->
 
-    <a href="dibujo2.html">DIBUJITO</a>
-    
-</body>
-    
-  </html>
+    <!-- OpenGraph -->
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:type" content="website" />
+    <!-- Esto importa la hoja de estilos de la página -->
+    <link rel="stylesheet" href="/estilo.css" />
+
+    <!-- Esto importa el archivo de JavaScript de la página -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div id="contenedorGeneral">
+      <h1 id="tituloPagina">
+        
+          ¿Qué criatura de terror eres?
+      </h1>
+      <div id="contenedorPersonaje">
+           <img id="foto" src="" />
+
+      <h2 class="tituloPrediccion" id="titulo1"></h2>
+      <p class="prediccion" id="prediccion1"></p>
+      
+      <button id="boton">Nueva Predicción</button>
+    </div>
+  </body>
+</html>
